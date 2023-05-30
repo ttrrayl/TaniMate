@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TaniMate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="find_info">Temukan Informasi dan Berbagai Komunitas Pertanian Anda</string>
+    <string name="find_infoDetail">Lorem Ipsum Bla Bla Bla</string>
+
+    <string name="find_info2">Optimalkan Bisnis Pertanian Anda dengan Kalkulator Pertanian</string>
+    <string name="find_info2Detail">Lorem Ipsum Bla Bla Bla</string>
+
 </resources>
