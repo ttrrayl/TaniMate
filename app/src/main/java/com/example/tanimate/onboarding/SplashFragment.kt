@@ -1,4 +1,4 @@
-package com.example.tanimate
+package com.example.tanimate.onboarding
 
 import android.os.Bundle
 import android.os.Handler
@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.example.tanimate.R
 
 class SplashFragment : Fragment() {
 
@@ -21,6 +22,5 @@ class SplashFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_splash, container, false)
     }
-
 
 }
