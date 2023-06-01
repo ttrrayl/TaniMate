@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.LoginActivity">
+    tools:context=".ui.RegisterActivity">
 
     <TextView
-        android:id="@+id/tv_title_login"
+        android:id="@+id/tv_title_register"
         style="@style/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/selamat_datang"
+        android:text="@string/ayo_daftar"
         android:gravity="center"
         android:textStyle="bold"
         android:layout_marginTop="32dp"
@@ -20,17 +20,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_desc_login"
+        android:id="@+id/tv_desc_register"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/silahkan_masukkan_email_dan_password_akun_anda_untuk_login"
-        android:layout_marginTop="27dp"
+        android:text="@string/silahkan_masukkan_email_dan_password_anda_untuk_mendaftar"
+        android:layout_marginTop="20dp"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_title_login" />
+        app:layout_constraintTop_toBottomOf="@id/tv_title_register" />
 
     <TextView
         android:id="@+id/tv_email"
@@ -40,9 +40,9 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_desc_login"/>
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc_register"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/layout_email"
@@ -50,23 +50,61 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:boxBackgroundColor="@color/calm_blue"
         app:layout_constraintTop_toBottomOf="@+id/tv_email"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="5dp"
+        app:boxBackgroundColor="@color/calm_blue"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        app:hintEnabled="true"
         app:boxCornerRadiusBottomStart="30dp"
         app:boxCornerRadiusBottomEnd="30dp"
         app:boxCornerRadiusTopEnd="30dp"
         app:boxCornerRadiusTopStart="30dp">
 
         <com.example.tanimate.ui.customview.EmailEditText
-            android:id="@+id/ed_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ems="0"
             android:inputType="textEmailAddress"/>
 
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_email"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_nama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:boxBackgroundColor="@color/calm_blue"
+
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusTopStart="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="0"
+            android:inputType="text"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -77,9 +115,9 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout_email"/>
+        app:layout_constraintTop_toBottomOf="@+id/layout_nama"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/layout_password"
@@ -89,7 +127,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_password"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="5dp"
         app:boxBackgroundColor="@color/calm_blue"
         app:passwordToggleEnabled="true"
         android:layout_marginStart="30dp"
@@ -109,47 +147,87 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <TextView
+        android:id="@+id/tv_konfir_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/konfirmasi_password"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_password"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_konfir_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_konfir_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="5dp"
+        app:boxBackgroundColor="@color/calm_blue"
+        app:passwordToggleEnabled="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusTopStart="30dp">
+
+        <com.example.tanimate.ui.customview.PasswordEditText
+            android:id="@+id/et_konfir_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="0"
+            android:inputType="textPassword"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
     <Button
-        android:id="@+id/bt_login"
+        android:id="@+id/bt_regist"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:background="@color/basic_background_strong_green"
-        android:text="@string/login"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:layout_marginTop="54dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout_password"/>
-
-    <TextView
-        android:id="@+id/tv_no_akun"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/belum_punya_akun"
-        android:gravity="center"
-        android:textSize="17sp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="74dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_login"/>
-
-    <TextView
-        android:id="@+id/tv_go_regist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/registrasi"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_konfir_password"/>
+
+    <TextView
+        android:id="@+id/tv_ada_akun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sudah_punya_akun"
         android:gravity="center"
         android:textSize="17sp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="69dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_regist"/>
+
+    <TextView
+        android:id="@+id/tv_go_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/masuk"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="17sp"
         android:layout_marginStart="8dp"
         android:textColor="@color/purple_200"
-        app:layout_constraintStart_toEndOf="@id/tv_no_akun"
-        app:layout_constraintTop_toBottomOf="@+id/bt_login" />
+        app:layout_constraintStart_toEndOf="@id/tv_ada_akun"
+        app:layout_constraintTop_toBottomOf="@+id/bt_regist" />
 
     <ProgressBar
-        android:id="@+id/pb_login"
+        android:id="@+id/pb_regist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -157,7 +235,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

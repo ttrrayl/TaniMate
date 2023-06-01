@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.viewpager2.widget.ViewPager2
 import com.example.tanimate.R
-import com.example.tanimate.LoginActivity
+import com.example.tanimate.ui.LoginActivity
 
 class SecondScreenFragment : Fragment() {
 

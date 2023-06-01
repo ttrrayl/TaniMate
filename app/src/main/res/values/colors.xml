@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="basic_background_green">#A4D0A4</color>
     <color name="basic_background_strong_green">#617A55</color>
+    <color name="calm_blue">#D9D9D9</color>
 
 
 </resources>
