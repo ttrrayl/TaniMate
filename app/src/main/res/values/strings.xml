@@ -8,5 +8,20 @@
 
     <string name="find_info2">Optimalkan Bisnis Pertanian Anda dengan Kalkulator Pertanian</string>
     <string name="find_info2Detail">Lorem Ipsum Bla Bla Bla</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="silahkan_masukkan_email_dan_password_akun_anda_untuk_login">Silahkan Masukkan Email dan Password Akun Anda untuk Login</string>
+    <string name="email">Email</string>
+    <string name="invalid_email">Masukkan format email yang sesuai</string>
+    <string name="error_pas">Password kurang dari 8 karakter</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="belum_punya_akun">Belum Punya Akun?</string>
+    <string name="ayo_daftar">Ayo Daftar</string>
+    <string name="silahkan_masukkan_email_dan_password_anda_untuk_mendaftar">Silahkan Masukkan Email dan Password Anda untuk Mendaftar</string>
+    <string name="nama">Nama</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun?</string>
+    <string name="masuk">Masuk</string>
 
 </resources>
