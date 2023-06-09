@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profileAkun"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_NamaProfile"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                tools:text="Nama Profile"/>
+
+            <TextView
+                android:id="@+id/tv_detailTextSms"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                tools:text="Detail Pesan"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -23,5 +23,11 @@
     <string name="konfirmasi_password">Konfirmasi Password</string>
     <string name="sudah_punya_akun">Sudah Punya Akun?</string>
     <string name="masuk">Masuk</string>
+    <string name="home">Home</string>
+    <string name="calculate">Kalkulator Pupuk</string>
+    <string name="TaniSms">Tani Tweet</string>
+    <string name="profile">Profile</string>
+    <string name="username_profile">Username</string>
+    <string name="email_profile">\@Email</string>
 
 </resources>
