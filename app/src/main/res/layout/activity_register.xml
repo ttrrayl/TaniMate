@@ -66,7 +66,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="0"
-            android:inputType="textEmailAddress"/>
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -104,7 +105,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="0"
-            android:inputType="text"/>
+            android:hint="@string/nama"
+            android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -142,6 +144,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="0"
+            android:hint="@string/password"
             android:inputType="textPassword"
             tools:ignore="SpeakableTextPresentCheck"/>
 
@@ -182,6 +185,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="0"
+            android:hint="@string/konfirmasi_password"
             android:inputType="textPassword"
             tools:ignore="SpeakableTextPresentCheck"/>
 
@@ -217,12 +221,12 @@
         android:id="@+id/tv_go_masuk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/masuk"
-        android:gravity="center"
-        android:layout_marginTop="8dp"
-        android:textSize="17sp"
         android:layout_marginStart="8dp"
-        android:textColor="@color/purple_200"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/masuk"
+        android:textColor="#7C4DFF"
+        android:textSize="17sp"
         app:layout_constraintStart_toEndOf="@id/tv_ada_akun"
         app:layout_constraintTop_toBottomOf="@+id/bt_regist" />
 
