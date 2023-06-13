@@ -6,7 +6,6 @@ GCP services used:
 - Cloud SQL
 - Artifact Registry
 - Cloud Storage
-- App Engine
 
 # GCP Architecture
 
