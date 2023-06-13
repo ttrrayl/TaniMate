@@ -41,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
             val password = binding.etPassword.text.toString()
             when {
                 username.isEmpty() -> {
-                    binding.layoutUsername.error = "Email masih kosong"
+                    binding.layoutUsername.error = "Username masih kosong"
                 }
                 password.isEmpty() -> {
                     binding.layoutPassword.error = "Password masih kosng"

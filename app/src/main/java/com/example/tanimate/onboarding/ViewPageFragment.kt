@@ -31,8 +31,6 @@ class ViewPageFragment : Fragment() {
         )
 
         viewPager.adapter = adapter
-//        val mPagerAdapter = new ScreenSlidePagerAdapter(childFragmentManager)
-//        viewPager.setAdapter(mPagerAdapter)
 
         return view
     }

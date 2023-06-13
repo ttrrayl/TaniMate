@@ -15,6 +15,9 @@ class ViewModelFactory (private val context: Context, private val pref: UserSess
             modelClass.isAssignableFrom(RegisterViewModel::class.java) -> {
                 RegisterViewModel(pref) as T
             }
+            modelClass.isAssignableFrom(HomeViewModel::class.java) -> {
+                HomeViewModel(pref) as T
+            }
             else -> throw java.lang.IllegalArgumentException("Uknown Viewmodel Class: " + modelClass.name)
         }
     }
