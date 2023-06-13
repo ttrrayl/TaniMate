@@ -9,7 +9,8 @@ GCP services used:
 - App Engine
 
 # GCP Architecture
-![GCP Architecture] (cloud computing/docs/gcp-architecture.png)
+
+![GCP Architecture] (Cloud Computing/docs/gcp-acrhitecture.png)
 
 # Artifact Registry
-Push and Pull Images [here] (https://cloud.google.com/artifact-registry/docs/docker/pushing-and-pulling?authuser=3)
+Push and Pull Images [here](https://cloud.google.com/artifact-registry/docs/docker/pushing-and-pulling?authuser=3)
