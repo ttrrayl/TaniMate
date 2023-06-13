@@ -30,7 +30,11 @@ This application will provide features that help farmers in selecting plant seed
 5. [Dotenv](https://www.npmjs.com/package/dotenv)
 
 # Library used for Machine Learning
-1. [None](https://www.google.com/)
+1. [Python](https://www.python.org/)
+2. [TensorFlow](https://www.tensorflow.org/)
+3. [Pandas](https://pandas.pydata.org/)
+4. [NumPy](https://numpy.org/)
+5. [scikit-learn](https://scikit-learn.org/)
 
 # Prototype
 You can see it [here](https://www.figma.com/file/gh6yJNON3OoaMvkhsxBjJA/Capstone-Project-(TaniMate)-team-library?type=design&node-id=1840%3A642&t=97RVvhprK9sbCp1H-1)
