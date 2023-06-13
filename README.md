@@ -17,7 +17,7 @@ This application will provide features that help farmers in selecting plant seed
 | Muhammad Khalid Assiddiq  | A137DKX4019   | Mobile Development  |
 
 # Tech Stack
-![Logo TaniMate](.png)
+![Tech Stack](TechStack.jpg)
 
 # Library used for Android Application
 1. [None](https://www.google.com/)
