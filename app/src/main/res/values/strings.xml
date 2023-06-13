@@ -29,5 +29,6 @@
     <string name="profile">Profile</string>
     <string name="username_profile">Username</string>
     <string name="email_profile">\@Email</string>
+    <string name="username">username</string>
 
 </resources>

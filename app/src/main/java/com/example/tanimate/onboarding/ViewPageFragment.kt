@@ -26,11 +26,13 @@ class ViewPageFragment : Fragment() {
 
         val adapter = ViewPagerAdapter(
             fragmentList,
-            requireActivity().supportFragmentManager,
+            childFragmentManager,
             lifecycle
         )
 
         viewPager.adapter = adapter
+//        val mPagerAdapter = new ScreenSlidePagerAdapter(childFragmentManager)
+//        viewPager.setAdapter(mPagerAdapter)
 
         return view
     }
