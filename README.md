@@ -20,7 +20,9 @@ This application will provide features that help farmers in selecting plant seed
 ![Tech Stack](TechStack.jpg)
 
 # Library used for Android Application
-1. [None](https://www.google.com/)
+1. [Retrofit](https://square.github.io/retrofit/)
+2. [tflite](https://www.tensorflow.org/lite?hl=id)
+3. [Logging Interceptor](https://square.github.io/okhttp/3.x/logging-interceptor/index.html?okhttp3/logging/HttpLoggingInterceptor.html)
 
 # Library used for Back-End System (Node.js with NPM)
 1. [Express JS](https://expressjs.com/)
