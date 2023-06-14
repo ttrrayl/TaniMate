@@ -39,10 +39,10 @@
             android:layout_marginRight="25dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:text="@string/silahkan_masukkan_jenis_bibit_tanaman" />
+            android:text="@string/silahkan_masukkan_jenis_peralatan_tambahan" />
 
         <Spinner
-            android:id="@+id/spinner_jenis_bibit_tanaman"
+            android:id="@+id/spinner_jenis_peralatan_tanaman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -51,8 +51,7 @@
             android:layout_marginBottom="35dp"
             android:hint="@string/silahkan_pilih_jenis_bibit_tanaman"
             android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:text="@string/jenis_tanah" />
+            android:paddingBottom="10dp" />
 
 
         <com.google.android.material.textfield.TextInputLayout

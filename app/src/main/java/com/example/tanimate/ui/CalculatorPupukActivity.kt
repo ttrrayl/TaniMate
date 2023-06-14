@@ -52,7 +52,8 @@ class CalculatorPupukActivity : AppCompatActivity() {
             val output = runInference(jenisTanaman, jenisTanah, lahan)
 
             // Tampilkan output di TextView atau elemen tampilan lainnya
-            textViewOutput.text = output.toString()
+            textViewOutput.text = "Besar Pupuk SP36 Yang Anda Butuhkan Adalah (Kilogram) : " + output.toString()
+
         }
 
         // Inisialisasi Interpreter dan muat model dari file .tflite

@@ -40,7 +40,7 @@
     <string name="silahkan_masukkan_besar_lahan_m2">Silahkan masukkan besar lahan (m2)</string>
     <string name="silahkan_pilih_jenis_tanah">Silahkan pilih jenis tanah</string>
     <string name="silahkan_pilih_jenis_tanaman">Silahkan pilih jenis tanaman</string>
-    <string name="masukkan_biaya_jumlah_pupuk_rp">Masukkan Biaya Jumlah Pupuk (Rp)</string>
+    <string name="masukkan_biaya_jumlah_pupuk_rp">Masukkan Banyak Pupuk Anda (Kilogram)</string>
     <string name="silahkan_pilih_jenis_bibit_tanaman">Silahkan pilih jenis bibit tanaman</string>
     <string name="silahkan_masukkan_jenis_bibit_tanaman">Silahkan Masukkan Jenis Bibit Tanaman</string>
     <string name="silahkan_masukkan_data_perhitungan_pupuk_anda">Silahkan Masukkan Data Perhitungan Pupuk Anda</string>
@@ -52,6 +52,7 @@
     <string name="silahkan_masukkan_jenis_tanah">Silahkan Masukkan Jenis Tanah</string>
     <string name="logout">Logout</string>
     <string name="tv_username1">Username</string>
+    <string name="silahkan_masukkan_jenis_peralatan_tambahan">Silahkan Masukkan Jenis Peralatan Tambahan</string>
 
 
     <array name="jenis_tanaman_array">
