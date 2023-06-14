@@ -44,6 +44,7 @@ class LoginViewModel(private val pref: UserSession): ViewModel() {
                         viewModelScope.launch {
                             if (getToken().value == null) pref.saveToken(
                                 UserModel(
+                                    name,
                                     true,
                                     responBody.accessToken
                                 )

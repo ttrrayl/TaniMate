@@ -13,6 +13,7 @@ class UserSession private constructor(private val dataStore: DataStore<Preferenc
     fun getToken(): Flow<UserModel> {
         return dataStore.data.map { preferences ->
             UserModel(
+                preferences[NAME] ?: "",
                 preferences[STATE] ?: false,
                 preferences[TOKEN] ?:""
             )
@@ -21,6 +22,7 @@ class UserSession private constructor(private val dataStore: DataStore<Preferenc
 
     suspend fun saveToken(user: UserModel) {
         dataStore.edit { preferences ->
+            preferences[NAME] = user.name
             preferences[STATE] = user.isLogin
             preferences[TOKEN] = user.token
         }
@@ -35,6 +37,7 @@ class UserSession private constructor(private val dataStore: DataStore<Preferenc
 
     suspend fun logout(){
         dataStore.edit { preferences ->
+            preferences[NAME] = ""
             preferences[STATE] = false
             preferences[TOKEN] = ""
         }
@@ -54,5 +57,6 @@ class UserSession private constructor(private val dataStore: DataStore<Preferenc
 
         private val STATE = booleanPreferencesKey("state")
         private val TOKEN = stringPreferencesKey("token")
+        private val NAME = stringPreferencesKey("name")
     }
 }
