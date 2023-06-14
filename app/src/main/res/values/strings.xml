@@ -31,4 +31,55 @@
     <string name="email_profile">\@Email</string>
     <string name="username">username</string>
 
+
+    <string name="input_lahan">Silahkan Masukkan Besar Lahan (meter persegi)</string>
+    <string name="submit_calc_pupuk">Hitung</string>
+    <string name="jenis_tanah">Jenis Tanah</string>
+    <string name="silahkan_masukkan_data_kalkulator_modal">Silahkan Masukkan Data Kalkulator Modal</string>
+    <string name="silahkan_masukkan_besar_lahan_m2">Silahkan masukkan besar lahan (m2)</string>
+    <string name="silahkan_pilih_jenis_tanah">Silahkan pilih jenis tanah</string>
+    <string name="silahkan_pilih_jenis_tanaman">Silahkan pilih jenis tanaman</string>
+    <string name="masukkan_biaya_jumlah_pupuk_rp">Masukkan Biaya Jumlah Pupuk (Rp)</string>
+    <string name="silahkan_pilih_jenis_bibit_tanaman">Silahkan pilih jenis bibit tanaman</string>
+    <string name="silahkan_masukkan_jenis_bibit_tanaman">Silahkan Masukkan Jenis Bibit Tanaman</string>
+    <string name="silahkan_masukkan_data_perhitungan_pupuk_anda">Silahkan Masukkan Data Perhitungan Pupuk Anda</string>
+    <string name="kalkulator_pupuk">Kalkulator Pupuk</string>
+    <string name="kalkulator_modal">Kalkulator Modal</string>
+    <string name="tanimate_s_calculator">Tanimate\'s Calculator</string>
+    <string name="silahkan_pilih_kalkulator_anda">Silahkan Pilih Kalkulator Anda</string>
+    <string name="silahkan_masukkan_jenis_tanaman">Silahkan Masukkan Jenis Tanaman</string>
+    <string name="silahkan_masukkan_jenis_tanah">Silahkan Masukkan Jenis Tanah</string>
+
+
+    <array name="jenis_tanaman_array">
+        <item>padi</item>
+        <item>jagung</item>
+        <item>kacang merah</item>
+        <item>kacang hijau</item>
+        <item>semangka</item>
+        <item>melon</item>
+        <item>apel</item>
+        <item>jeruk</item>
+        <item>kopi</item>
+    </array>
+
+    <array name="jenis_tanah_array">
+        <item>lempung</item>
+        <item>lempung berpasir</item>
+        <item>pasir berlempung</item>
+        <item>liat berpasir</item>
+    </array>
+
+    <array name="jenis_bibit_tanaman_array">
+        <item>padi</item>
+        <item>jagung</item>
+        <item>kacang merah</item>
+        <item>kacang hijau</item>
+        <item>semangka</item>
+        <item>melon</item>
+        <item>apel</item>
+        <item>jeruk</item>
+        <item>kopi</item>
+    </array>
+
 </resources>

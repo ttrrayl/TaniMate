@@ -15,6 +15,12 @@
         android:theme="@style/Theme.TaniMate"
         tools:targetApi="31">
         <activity
+            android:name=".ui.CalculatorPupukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CalculatorModalActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
