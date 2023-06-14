@@ -50,6 +50,8 @@
     <string name="silahkan_pilih_kalkulator_anda">Silahkan Pilih Kalkulator Anda</string>
     <string name="silahkan_masukkan_jenis_tanaman">Silahkan Masukkan Jenis Tanaman</string>
     <string name="silahkan_masukkan_jenis_tanah">Silahkan Masukkan Jenis Tanah</string>
+    <string name="logout">Logout</string>
+    <string name="tv_username1">Username</string>
 
 
     <array name="jenis_tanaman_array">

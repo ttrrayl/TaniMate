@@ -60,7 +60,7 @@ class CalculatorPupukActivity : AppCompatActivity() {
     }
 
     private fun loadModelFile(context: Context): MappedByteBuffer {
-        val fileDescriptor = context.assets.openFd("mlmodel_2.tflite")
+        val fileDescriptor = context.assets.openFd("mlmodel_3.tflite")
         val fileInputStream = FileInputStream(fileDescriptor.fileDescriptor)
         val fileChannel = fileInputStream.channel
         val startOffset = fileDescriptor.startOffset

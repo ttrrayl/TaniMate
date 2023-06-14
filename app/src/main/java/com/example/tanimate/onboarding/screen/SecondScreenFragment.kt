@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.viewpager2.widget.ViewPager2
 import com.example.tanimate.HomeActivity
 import com.example.tanimate.R
+import com.example.tanimate.ui.LoginActivity
 
 class SecondScreenFragment : Fragment() {
 
@@ -23,7 +24,7 @@ class SecondScreenFragment : Fragment() {
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPagerScreen)
 
         view.findViewById<TextView>(R.id.buttonStart).setOnClickListener {
-            val intent = Intent(activity, HomeActivity::class.java)
+            val intent = Intent(activity, LoginActivity::class.java)
             startActivity(intent)
             activity?.finish()
         }
