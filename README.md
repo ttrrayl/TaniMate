@@ -40,7 +40,7 @@ This application will provide features that help farmers in selecting plant seed
 You can see it [here](https://www.figma.com/file/gh6yJNON3OoaMvkhsxBjJA/Capstone-Project-(TaniMate)-team-library?type=design&node-id=1840%3A642&t=97RVvhprK9sbCp1H-1)
 
 # Deploying to GCP
-For documentation on deploying to GCP, check this [document](https://github.com/ttrrayl/TaniMate/blob/184525a38fbc7e0b4c517e73aa306dc4741c3f22/Cloud%20Computing/docs/gcp_deploy.md)
+For documentation on deploying to GCP, check this [document](https://github.com/ttrrayl/TaniMate/blob/master/Cloud%20Computing/docs/gcp_deploy.md)
 
 # Future Development
 TBD
