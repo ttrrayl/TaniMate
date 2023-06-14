@@ -9,7 +9,7 @@ GCP services used:
 
 # GCP Architecture
 
-![GCP Architecture](Cloud Computing/docs/gcp-architecture.png)
+![GCP Architecture](gcp-acrhitecture.png)
 
 # Set Environment Variables and Enable Services
 ```bash
