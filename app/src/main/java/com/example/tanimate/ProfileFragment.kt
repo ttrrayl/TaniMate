@@ -66,7 +66,6 @@ class ProfileFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_profile, container, false)
 
         view?.findViewById<Button>(R.id.bt_logout)?.setOnClickListener {
-            Toast.makeText(context, username, Toast.LENGTH_SHORT).show()
             AlertDialog.Builder(activity).apply {
                 setTitle("CONFIRMATION")
                 setMessage("Logout of your account?")

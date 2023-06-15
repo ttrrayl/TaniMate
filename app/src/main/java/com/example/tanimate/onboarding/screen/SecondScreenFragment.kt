@@ -11,6 +11,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.tanimate.HomeActivity
 import com.example.tanimate.R
 import com.example.tanimate.ui.LoginActivity
+import kotlinx.coroutines.delay
 
 class SecondScreenFragment : Fragment() {
 
@@ -24,11 +25,10 @@ class SecondScreenFragment : Fragment() {
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPagerScreen)
 
         view.findViewById<TextView>(R.id.buttonStart).setOnClickListener {
-            val intent = Intent(activity, HomeActivity::class.java)
+            val intent = Intent(context, HomeActivity::class.java)
             startActivity(intent)
             activity?.finish()
         }
-
         return view
     }
 

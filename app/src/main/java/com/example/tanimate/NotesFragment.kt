@@ -67,16 +67,4 @@ class NotesFragment : Fragment() {
         super.onDestroy()
         _binding = null
     }
-//
-//    companion object {
-//
-//        // TODO: Rename and change types and number of parameters
-//        @JvmStatic
-//        fun newInstance(param1: String, param2: String) =
-//            NotesFragment().apply {
-//                arguments = Bundle().apply {
-//
-//                }
-//            }
-//    }
 }

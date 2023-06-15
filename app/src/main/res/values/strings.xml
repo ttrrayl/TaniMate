@@ -24,8 +24,8 @@
     <string name="sudah_punya_akun">Sudah Punya Akun?</string>
     <string name="masuk">Masuk</string>
     <string name="home">Home</string>
-    <string name="calculate">Kalkulator Pupuk</string>
-    <string name="TaniSms">Tani Tweet</string>
+    <string name="calculate">Kalkulator</string>
+    <string name="TaniSms">Catatan</string>
     <string name="profile">Profile</string>
     <string name="username_profile">Username</string>
     <string name="email_profile">\@Email</string>
@@ -52,6 +52,28 @@
     <string name="silahkan_masukkan_jenis_tanah">Silahkan Masukkan Jenis Tanah</string>
     <string name="logout">Logout</string>
     <string name="tv_username1">Username</string>
+    <string name="tanggal">tanggal</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="simpan">simpan</string>
+
+    <string name="delete">Hapus</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+    <string name="message_ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="empty">Field tidak boleh kosong</string>
+    <string name="update">Update</string>
+    <string name="change">Ubah</string>
+    <string name="add">Tambah</string>
+    <string name="save">Simpan</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="message_cancel">Apakah anda ingin membatalkan perubahan pada form?</string>
+    <string name="message_delete">Apakah anda yakin ingin menghapus item ini?</string>
+    <string name="added">Satu item berhasil ditambahkan</string>
+    <string name="changed">Satu item berhasil diubah</string>
+    <string name="deleted">Satu item berhasil dihapus</string>
+    <string name="tanimate_s_note">Tanimate\'s Note</string>
 
 
     <array name="jenis_tanaman_array">

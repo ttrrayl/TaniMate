@@ -38,23 +38,37 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="351dp"
-            android:layout_height="499dp"
+            android:layout_height="569dp"
             android:layout_marginTop="30dp"
             app:layout_constraintBottom_toBottomOf="@+id/iv_backgroundContainer"
             app:layout_constraintEnd_toEndOf="@+id/iv_backgroundContainer"
             app:layout_constraintStart_toStartOf="@+id/iv_backgroundContainer"
             app:layout_constraintTop_toTopOf="@+id/iv_backgroundContainer">
 
+            <TextView
+                android:id="@+id/tv_berita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/berita_pertanian"
+                android:textSize="30sp"
+                android:gravity="center"
+                style="@style/title"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_beritaHome"
-                android:layout_width="384dp"
-                android:layout_height="524dp"
-                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_berita"
                 app:layout_constraintVertical_bias="0.0"
                 tools:listitem="@layout/item_rvberitahome" />
 
