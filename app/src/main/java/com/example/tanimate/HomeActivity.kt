@@ -36,7 +36,7 @@ class HomeActivity : AppCompatActivity() {
             when(it.itemId){
                 R.id.home -> replaceFragment(HomeFragment())
                 R.id.calculate -> replaceFragment(CalculateFragment())
-                R.id.textsms -> replaceFragment(TextsmsFragment())
+                R.id.textsms -> replaceFragment(NotesFragment())
                 R.id.profile -> replaceFragment(ProfileFragment())
 
             else ->{

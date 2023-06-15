@@ -10,10 +10,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
+import com.example.tanimate.data.local.UserModel
 import com.example.tanimate.data.local.UserSession
 import com.example.tanimate.viewmodel.HomeViewModel
 import com.example.tanimate.viewmodel.ProfileViewModel
@@ -38,6 +40,7 @@ class ProfileFragment : Fragment() {
 
     private lateinit var profileViewModel: ProfileViewModel
     private lateinit var dataStore : DataStore<Preferences>
+    private var user : UserModel? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,6 +49,9 @@ class ProfileFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        dataStore = requireContext().dataStore
+        val pref = UserSession.getInstance(dataStore)
+        profileViewModel = ViewModelProvider(this, ViewModelFactory(requireContext(), pref))[ProfileViewModel::class.java]
 
     }
 
@@ -56,12 +62,11 @@ class ProfileFragment : Fragment() {
         // Inflate the layout for this fragment
    //     return inflater.inflate(R.layout.fragment_profile, container, false)
 
-        dataStore = requireContext().dataStore
-        val pref = UserSession.getInstance(dataStore)
-        profileViewModel = ViewModelProvider(this, ViewModelFactory(requireContext(), pref))[ProfileViewModel::class.java]
+
         val view = inflater.inflate(R.layout.fragment_profile, container, false)
 
         view?.findViewById<Button>(R.id.bt_logout)?.setOnClickListener {
+            Toast.makeText(context, username, Toast.LENGTH_SHORT).show()
             AlertDialog.Builder(activity).apply {
                 setTitle("CONFIRMATION")
                 setMessage("Logout of your account?")
@@ -75,28 +80,25 @@ class ProfileFragment : Fragment() {
             }
         }
 
+        var tv_username = view?.findViewById<TextView>(R.id.tv_NamaProfile)
+        tv_username?.setText(username)
+
 //        view?.findViewById<TextView>(R.id.tv_NamaProfile)?.text =
 
         return view
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment ProfileFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            ProfileFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+        var username = ""
+
+//        // TODO: Rename and change types and number of parameters
+//        @JvmStatic
+//        fun newInstance(param1: String, param2: String) =
+//            ProfileFragment().apply {
+//                arguments = Bundle().apply {
+//                    putString(ARG_PARAM1, param1)
+//                    putString(ARG_PARAM2, param2)
+//                }
+//            }
     }
 }

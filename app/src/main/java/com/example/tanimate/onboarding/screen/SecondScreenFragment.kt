@@ -24,7 +24,7 @@ class SecondScreenFragment : Fragment() {
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPagerScreen)
 
         view.findViewById<TextView>(R.id.buttonStart).setOnClickListener {
-            val intent = Intent(activity, LoginActivity::class.java)
+            val intent = Intent(activity, HomeActivity::class.java)
             startActivity(intent)
             activity?.finish()
         }

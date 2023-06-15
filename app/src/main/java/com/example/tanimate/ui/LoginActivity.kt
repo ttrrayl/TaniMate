@@ -11,6 +11,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
 import com.example.tanimate.HomeActivity
+import com.example.tanimate.ProfileFragment
 import com.example.tanimate.R
 import com.example.tanimate.data.local.UserModel
 import com.example.tanimate.data.local.UserSession
@@ -35,6 +36,9 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        val name = binding.edUsername.text.toString()
+        ProfileFragment.username = name
 
         binding.btLogin.setOnClickListener {
             val username = binding.edUsername.text.toString()
