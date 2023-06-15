@@ -60,6 +60,18 @@ class HomeFragment : Fragment() {
             "no4" -> {
                 url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
             }
+            "no5" -> {
+                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+            }
+            "no6" -> {
+                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+            }
+            "no7" -> {
+                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+            }
+            "no8" -> {
+                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+            }
         }
         goToBerita(url)
     }

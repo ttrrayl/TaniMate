@@ -107,4 +107,37 @@
         <item>kopi</item>
     </array>
 
+    <string-array name="judul_berita">
+        <item>Jamur Tiram: Klasifikasi, Habitat, Cara Budi Daya, dan Manfaat</item>
+        <item>Pertanian Cerdas Iklim Mampu Hemat Air di Lahan Persawahan Hingga 21%</item>
+        <item>Ini Cara Pupuk Indonesia Dukung Digitalisasi Sektor Pertanian</item>
+        <item> Ini Komoditas Ekspor Indonesia dari Sektor Pertanian, Cekidot!</item>
+        <item>Amerika Siapkan Rp123 Miliar untuk Latih 6.500 Petani Kakao dan Kopi Kecil di Indonesia</item>
+        <item>Mentan Dorong Smart Precision Farming Majukan Sektor Pertanian</item>
+        <item> Petani Milenial Bali Sukses Terapkan Pupuk Organik untuk Pertanian Modern</item>
+        <item>Terapkan Teknologi SGH, Petani Milenial Pantau Tanaman Lewat Smartphone</item>
+    </string-array>
+
+    <integer-array name="photo">
+        <item>@drawable/jamur_tiram</item>
+        <item>@drawable/semangka</item>
+        <item>@drawable/pupuk</item>
+        <item>@drawable/ekspor</item>
+        <item>@drawable/amerika</item>
+        <item>@drawable/mentan</item>
+        <item>@drawable/milenial</item>
+        <item>@drawable/milenial2</item>
+    </integer-array>
+
+    <string-array name="id">
+        <item>no1</item>
+        <item>no2</item>
+        <item>no3</item>
+        <item>no4</item>
+        <item>no5</item>
+        <item>no6</item>
+        <item>no7</item>
+        <item>no8</item>
+    </string-array>
+
 </resources>
