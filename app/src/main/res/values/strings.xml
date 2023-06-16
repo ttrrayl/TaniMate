@@ -4,10 +4,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="find_info">Temukan Informasi dan Berbagai Komunitas Pertanian Anda</string>
-    <string name="find_infoDetail">Lorem Ipsum Bla Bla Bla</string>
+    <string name="find_infoDetail">Anda dapat mengetahui informasi seputar pertanian serta berbagi status untuk berkomunikasi dengan komunitas pertanian</string>
 
     <string name="find_info2">Optimalkan Bisnis Pertanian Anda dengan Kalkulator Pertanian</string>
-    <string name="find_info2Detail">Lorem Ipsum Bla Bla Bla</string>
+    <string name="find_info2Detail">Lakukan Perhitungan Kalkulator Pertanian Dengan Akurat </string>
     <string name="selamat_datang">Selamat Datang</string>
     <string name="silahkan_masukkan_email_dan_password_akun_anda_untuk_login">Silahkan Masukkan Email dan Password Akun Anda untuk Login</string>
     <string name="email">Email</string>
@@ -23,5 +23,127 @@
     <string name="konfirmasi_password">Konfirmasi Password</string>
     <string name="sudah_punya_akun">Sudah Punya Akun?</string>
     <string name="masuk">Masuk</string>
+    <string name="home">Home</string>
+    <string name="calculate">Kalkulator</string>
+    <string name="TaniSms">Catatan</string>
+    <string name="profile">Profile</string>
+    <string name="username_profile">Username</string>
+    <string name="email_profile">\@Email</string>
+    <string name="username">username</string>
+    <string name="keluar">KELUAR</string>
+
+
+    <string name="input_lahan">Silahkan Masukkan Besar Lahan (meter persegi)</string>
+    <string name="submit_calc_pupuk">Hitung</string>
+    <string name="jenis_tanah">Jenis Tanah</string>
+    <string name="silahkan_masukkan_data_kalkulator_modal">Silahkan Masukkan Data Kalkulator Modal</string>
+    <string name="silahkan_masukkan_besar_lahan_m2">Silahkan masukkan besar lahan (m2)</string>
+    <string name="silahkan_pilih_jenis_tanah">Silahkan pilih jenis tanah</string>
+    <string name="silahkan_pilih_jenis_tanaman">Silahkan pilih jenis tanaman</string>
+    <string name="masukkan_biaya_jumlah_pupuk_rp">Masukkan Biaya Jumlah Pupuk (Rp)</string>
+    <string name="silahkan_pilih_jenis_bibit_tanaman">Silahkan pilih jenis bibit tanaman</string>
+    <string name="silahkan_masukkan_jenis_bibit_tanaman">Silahkan Masukkan Jenis Bibit Tanaman</string>
+    <string name="silahkan_masukkan_data_perhitungan_pupuk_anda">Silahkan Masukkan Data Perhitungan Pupuk Anda</string>
+    <string name="kalkulator_pupuk">Kalkulator Pupuk</string>
+    <string name="kalkulator_modal">Kalkulator Modal</string>
+    <string name="tanimate_s_calculator">Tanimate\'s Calculator</string>
+    <string name="silahkan_pilih_kalkulator_anda">Silahkan Pilih Kalkulator Anda</string>
+    <string name="silahkan_masukkan_jenis_tanaman">Silahkan Masukkan Jenis Tanaman</string>
+    <string name="silahkan_masukkan_jenis_tanah">Silahkan Masukkan Jenis Tanah</string>
+    <string name="logout">Logout</string>
+    <string name="tv_username1">Username</string>
+    <string name="tanggal">tanggal</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="simpan">simpan</string>
+
+    <string name="delete">Hapus</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+    <string name="message_ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="empty">Field tidak boleh kosong</string>
+    <string name="update">Update</string>
+    <string name="change">Ubah</string>
+    <string name="add">Tambah</string>
+    <string name="save">Simpan</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="message_cancel">Apakah anda ingin membatalkan perubahan pada form?</string>
+    <string name="message_delete">Apakah anda yakin ingin menghapus item ini?</string>
+    <string name="added">Satu item berhasil ditambahkan</string>
+    <string name="changed">Satu item berhasil diubah</string>
+    <string name="deleted">Satu item berhasil dihapus</string>
+    <string name="tanimate_s_note">Tanimate\'s Note</string>
+    <string name="silahkan_masukkan_jenis_peralatan_tambahan">Silahkan Masukkan Jenis Peralatan Tambahan</string>
+    <string name="berita_pertanian">Berita Pertanian</string>
+    <string name="guide">Guide</string>
+    <string name="about_us">About Us</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="masukkan_jumlah_pupuk_yang_dibutuhkan_kg">Masukkan Jumlah Pupuk yang Dibutuhkan (Kg)</string>
+
+
+    <array name="jenis_tanaman_array">
+        <item>padi</item>
+        <item>jagung</item>
+        <item>kacang merah</item>
+        <item>kacang hijau</item>
+        <item>semangka</item>
+        <item>melon</item>
+        <item>apel</item>
+        <item>jeruk</item>
+        <item>kopi</item>
+    </array>
+
+    <array name="jenis_tanah_array">
+        <item>lempung</item>
+        <item>lempung berpasir</item>
+        <item>pasir berlempung</item>
+        <item>liat berpasir</item>
+    </array>
+
+    <array name="jenis_bibit_tanaman_array">
+        <item>padi</item>
+        <item>jagung</item>
+        <item>kacang merah</item>
+        <item>kacang hijau</item>
+        <item>semangka</item>
+        <item>melon</item>
+        <item>apel</item>
+        <item>jeruk</item>
+        <item>kopi</item>
+    </array>
+
+    <string-array name="judul_berita">
+        <item>Jamur Tiram: Klasifikasi, Habitat, Cara Budi Daya, dan Manfaat</item>
+        <item>Pertanian Cerdas Iklim Mampu Hemat Air di Lahan Persawahan Hingga 21%</item>
+        <item>Ini Cara Pupuk Indonesia Dukung Digitalisasi Sektor Pertanian</item>
+        <item> Ini Komoditas Ekspor Indonesia dari Sektor Pertanian, Cekidot!</item>
+        <item>Amerika Siapkan Rp123 Miliar untuk Latih 6.500 Petani Kakao dan Kopi Kecil di Indonesia</item>
+        <item>Mentan Dorong Smart Precision Farming Majukan Sektor Pertanian</item>
+        <item> Petani Milenial Bali Sukses Terapkan Pupuk Organik untuk Pertanian Modern</item>
+        <item>Terapkan Teknologi SGH, Petani Milenial Pantau Tanaman Lewat Smartphone</item>
+    </string-array>
+
+    <integer-array name="photo">
+        <item>@drawable/jamur_tiram</item>
+        <item>@drawable/semangka</item>
+        <item>@drawable/pupuk</item>
+        <item>@drawable/ekspor</item>
+        <item>@drawable/amerika</item>
+        <item>@drawable/mentan</item>
+        <item>@drawable/milenial</item>
+        <item>@drawable/milenial2</item>
+    </integer-array>
+
+    <string-array name="id">
+        <item>no1</item>
+        <item>no2</item>
+        <item>no3</item>
+        <item>no4</item>
+        <item>no5</item>
+        <item>no6</item>
+        <item>no7</item>
+        <item>no8</item>
+    </string-array>
 
 </resources>

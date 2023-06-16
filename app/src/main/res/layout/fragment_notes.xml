@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesFragment">
+
+    <ImageView
+        android:id="@+id/iv_logoAtasPage"
+        android:layout_width="418dp"
+        android:layout_height="154dp"
+        android:src="@drawable/logo_atas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logoAtasPage">
+
+        <ImageView
+            android:id="@+id/iv_backgroundContainer"
+            android:layout_width="380dp"
+            android:layout_height="617dp"
+            android:src="@drawable/background_info_page"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="351dp"
+            android:layout_height="569dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_backgroundContainer"
+            app:layout_constraintEnd_toEndOf="@+id/iv_backgroundContainer"
+            app:layout_constraintStart_toStartOf="@+id/iv_backgroundContainer"
+            app:layout_constraintTop_toTopOf="@+id/iv_backgroundContainer">
+
+            <TextView
+                android:id="@+id/tv_title_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOTES"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                style="@style/title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/rv_textsms"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_textsms"
+                android:layout_width="384dp"
+                android:layout_height="524dp"
+                android:layout_marginTop="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:listitem="@layout/item_notes" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:fabSize="auto"
+        app:backgroundTint="@color/basic_background_strong_green"
+        android:src="@drawable/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

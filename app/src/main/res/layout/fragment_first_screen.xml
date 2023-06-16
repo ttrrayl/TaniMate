@@ -22,18 +22,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
-
+        app:layout_constraintVertical_bias="0.423" />
 
     <TextView
         android:id="@+id/tv_infoFirst"
         style="@style/find_info"
-        android:layout_width="288dp"
-        android:layout_height="45dp"
+        android:layout_width="304dp"
+        android:layout_height="68dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
         android:text="@string/find_info"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,25 +44,25 @@
     <TextView
         android:id="@+id/tv_infoDetailFirst"
         style="@style/find_infoDetail"
-        android:layout_width="288dp"
-        android:layout_height="45dp"
+        android:layout_width="333dp"
+        android:layout_height="94dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
         android:text="@string/find_infoDetail"
-        android:textStyle="bold"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617" />
+        app:layout_constraintVertical_bias="0.657" />
 
     <TextView
         android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="310dp"
-        android:layout_marginTop="151dp"
         android:layout_marginEnd="42dp"
         android:layout_marginBottom="100dp"
         android:text="Next"

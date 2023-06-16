@@ -36,7 +36,7 @@
         android:id="@+id/tv_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/email"
+        android:text="@string/tv_username1"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_marginStart="12dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_desc_login"/>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/layout_email"
+        android:id="@+id/layout_username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,11 +61,12 @@
         app:boxCornerRadiusTopEnd="30dp"
         app:boxCornerRadiusTopStart="30dp">
 
-        <com.example.tanimate.ui.customview.EmailEditText
-            android:id="@+id/ed_email"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"/>
+            android:hint="@string/username"
+            android:inputType="text" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -79,7 +80,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout_email"/>
+        app:layout_constraintTop_toBottomOf="@+id/layout_username"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/layout_password"
@@ -104,6 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="0"
+            android:hint="@string/password"
             android:inputType="textPassword"
             tools:ignore="SpeakableTextPresentCheck"/>
 
@@ -139,12 +141,12 @@
         android:id="@+id/tv_go_regist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/registrasi"
-        android:gravity="center"
-        android:textSize="17sp"
-        android:layout_marginTop="12dp"
         android:layout_marginStart="8dp"
-        android:textColor="@color/purple_200"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/registrasi"
+        android:textColor="#7C4DFF"
+        android:textSize="17sp"
         app:layout_constraintStart_toEndOf="@id/tv_no_akun"
         app:layout_constraintTop_toBottomOf="@+id/bt_login" />
 
