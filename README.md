@@ -47,7 +47,7 @@ This application will provide features that help farmers in selecting plant seed
 You can see it [here.](https://www.figma.com/file/gh6yJNON3OoaMvkhsxBjJA/Capstone-Project-(TaniMate)-team-library?type=design&node-id=1840%3A642&t=97RVvhprK9sbCp1H-1)
 
 # How to use our app
-You can install the APK to your phone by downloading it from [here.](https://drive.google.com/file/d/10lP082h_b7XrZeK3-wAGMVgLbqaWLbDU/view?usp=drive_link)
+You can install the APK to your phone by downloading it from [here.](https://drive.google.com/file/d/15T9DuSJgV5hX16R4KAvGAtgzjzJJO6be/view?usp=sharing)
 
 # Deploying to GCP
 For documentation on deploying to GCP, check this [document.](https://github.com/ttrrayl/TaniMate/blob/master/Cloud%20Computing/docs/gcp_deploy.md)
