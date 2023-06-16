@@ -79,6 +79,7 @@
     <string name="guide">Guide</string>
     <string name="about_us">About Us</string>
     <string name="change_profile">Change Profile</string>
+    <string name="masukkan_jumlah_pupuk_yang_dibutuhkan_kg">Masukkan Jumlah Pupuk yang Dibutuhkan (Kg)</string>
 
 
     <array name="jenis_tanaman_array">

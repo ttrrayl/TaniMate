@@ -65,7 +65,7 @@
             android:id="@+id/biaya_pupuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/masukkan_biaya_jumlah_pupuk_rp"
+            android:hint="@string/masukkan_jumlah_pupuk_yang_dibutuhkan_kg"
             android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
