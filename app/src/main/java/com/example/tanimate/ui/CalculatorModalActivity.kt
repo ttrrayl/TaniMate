@@ -54,7 +54,7 @@ class CalculatorModalActivity : AppCompatActivity() {
             val modal = jenisPeralatanTanaman[jenisTanaman] ?: 0
             val totalModal = (pupuk*15000) + modal
 
-            textViewOutput.text = "Jumlah Modal Yang Anda Perlukan Adalah : Rp " + totalModal.toString()
+            textViewOutput.text = "Jumlah Modal Yang Anda Perlukan Adalah : Rp \n" + totalModal.toString()
 
         }
     }

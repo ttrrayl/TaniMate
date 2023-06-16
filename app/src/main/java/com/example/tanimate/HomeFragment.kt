@@ -23,10 +23,7 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout for this fragment
-
-
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+       _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
         list.addAll(getListBerita())
         showRecyclerView()

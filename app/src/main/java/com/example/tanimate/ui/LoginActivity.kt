@@ -5,6 +5,8 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.View
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -37,9 +39,6 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
 
-        val name = binding.edUsername.text.toString()
-        ProfileFragment.username = name
-
         binding.btLogin.setOnClickListener {
             val username = binding.edUsername.text.toString()
             val password = binding.etPassword.text.toString()
@@ -55,9 +54,6 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
 
-//            val intent = Intent(this, HomeActivity::class.java)
-//            startActivity(intent)
-//            finish()
         }
 
         setViewModel()
@@ -70,6 +66,7 @@ class LoginActivity : AppCompatActivity() {
         loginViewModel = ViewModelProvider(this, ViewModelFactory(this, pref))[LoginViewModel::class.java]
         loginViewModel.getToken().observe(this) { user ->
             this.user = user
+            ProfileFragment.username = user.name.toString().trim()
         }
         loginViewModel.isLoading.observe(this) {
             showLoading(it)
