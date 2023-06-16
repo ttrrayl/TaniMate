@@ -20,9 +20,14 @@ This application will provide features that help farmers in selecting plant seed
 ![Tech Stack](TechStack.jpg)
 
 # Library used for Android Application
-1. [Retrofit](https://square.github.io/retrofit/)
+1. [Retrofit 2](https://square.github.io/retrofit/)
 2. [tflite](https://www.tensorflow.org/lite?hl=id)
 3. [Logging Interceptor](https://square.github.io/okhttp/3.x/logging-interceptor/index.html?okhttp3/logging/HttpLoggingInterceptor.html)
+4. [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview)
+5. [Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
+6. [Glide](https://github.com/bumptech/glide)
+7. [Datastore](https://developer.android.com/topic/libraries/architecture/datastore)
+8. [SQLite](https://developer.android.com/jetpack/androidx/releases/sqlite)
 
 # Library used for Back-End System (Node.js with NPM)
 1. [Express JS](https://expressjs.com/)
