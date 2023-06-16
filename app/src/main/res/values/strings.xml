@@ -76,6 +76,9 @@
     <string name="tanimate_s_note">Tanimate\'s Note</string>
     <string name="silahkan_masukkan_jenis_peralatan_tambahan">Silahkan Masukkan Jenis Peralatan Tambahan</string>
     <string name="berita_pertanian">Berita Pertanian</string>
+    <string name="guide">Guide</string>
+    <string name="about_us">About Us</string>
+    <string name="change_profile">Change Profile</string>
 
 
     <array name="jenis_tanaman_array">

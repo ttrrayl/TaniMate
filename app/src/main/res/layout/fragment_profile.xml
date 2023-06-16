@@ -62,7 +62,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="5dp"
-                tools:text="Change Profile" />
+                android:text="@string/change_profile" />
         </LinearLayout>
 
         <LinearLayout
@@ -86,7 +86,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="5dp"
-                tools:text="Guide" />
+                android:text="@string/guide"
+                 />
 
             <TextView
                 android:id="@+id/tv_aboutUs"
@@ -100,7 +101,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="5dp"
-                tools:text="About Us" />
+                android:text="@string/about_us" />
         </LinearLayout>
 
 
@@ -110,7 +111,7 @@
         android:id="@+id/iv_profileAkun"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/start_logo"
+        android:src="@drawable/baseline_account_circle_24"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout_DetailProfile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
