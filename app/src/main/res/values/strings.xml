@@ -4,10 +4,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="find_info">Temukan Informasi dan Berbagai Komunitas Pertanian Anda</string>
-    <string name="find_infoDetail">Lorem Ipsum Bla Bla Bla</string>
+    <string name="find_infoDetail">Anda dapat mengetahui informasi seputar pertanian serta berbagi status untuk berkomunikasi dengan komunitas pertanian</string>
 
     <string name="find_info2">Optimalkan Bisnis Pertanian Anda dengan Kalkulator Pertanian</string>
-    <string name="find_info2Detail">Lorem Ipsum Bla Bla Bla</string>
+    <string name="find_info2Detail">Lakukan Perhitungan Kalkulator Pertanian Dengan Akurat </string>
     <string name="selamat_datang">Selamat Datang</string>
     <string name="silahkan_masukkan_email_dan_password_akun_anda_untuk_login">Silahkan Masukkan Email dan Password Akun Anda untuk Login</string>
     <string name="email">Email</string>
@@ -74,6 +74,8 @@
     <string name="changed">Satu item berhasil diubah</string>
     <string name="deleted">Satu item berhasil dihapus</string>
     <string name="tanimate_s_note">Tanimate\'s Note</string>
+    <string name="silahkan_masukkan_jenis_peralatan_tambahan">Silahkan Masukkan Jenis Peralatan Tambahan</string>
+    <string name="berita_pertanian">Berita Pertanian</string>
 
 
     <array name="jenis_tanaman_array">
@@ -130,14 +132,14 @@
     </integer-array>
 
     <string-array name="id">
-        <item>no1</item>
-        <item>no2</item>
-        <item>no3</item>
-        <item>no4</item>
-        <item>no5</item>
-        <item>no6</item>
-        <item>no7</item>
-        <item>no8</item>
+        <item>Jamur Tiram: Klasifikasi, Habitat, Cara Budi Daya, dan Manfaat Baca artikel detikedu, "Jamur Tiram: Klasifikasi, Habitat, Cara Budi Daya, dan Manfaat"</item>
+        <item>Teknologi Decomposer Dinilai Bisa Capai Zero Waste dan Kurangi Pembakaran di Sektor Pertanian</item>
+        <item>Masyarakat Grogol Yogyakarta Rintis Agrowisata Tanaman Semangka</item>
+        <item>Pertanian Cerdas Iklim Mampu Hemat Air di Lahan Persawahan Hingga 21%</item>
+        <item>Ini Cara Pupuk Indonesia Dukung Digitalisasi Sektor Pertanian</item>
+        <item>Ini Komoditas Ekspor Indonesia dari Sektor Pertanian, Cekidot!</item>
+        <item>Berita Terkini - Pertanian</item>
+        <item>Amerika Siapkan Rp123 Miliar untuk Latih 6.500 Petani Kakao dan Kopi Kecil di Indonesia </item>
     </string-array>
 
 </resources>

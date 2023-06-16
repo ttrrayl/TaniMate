@@ -49,28 +49,28 @@ class HomeFragment : Fragment() {
         var url = ""
         when(Berita.id){
             "no1" -> {
-                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+                url = "https://www.detik.com/edu/detikpedia/d-6657990/jamur-tiram-klasifikasi-habitat-cara-budi-daya-dan-manfaat"
             }
             "no2" -> {
-                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+                url = "https://www.liputan6.com/tekno/read/5291437/teknologi-decomposer-dinilai-bisa-capai-zero-waste-dan-kurangi-pembakaran-di-sektor-pertanian"
             }
             "no3" -> {
-                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+                url = "https://mediaindonesia.com/nusantara/585193/masyarakat-grogol-yogyakarta-rintis-agrowisata-tanaman-semangka"
             }
             "no4" -> {
-                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+                url = "https://mediaindonesia.com/ekonomi/584894/pertanian-cerdas-iklim-mampu-hemat-air-di-lahan-persawahan-hingga-21"
             }
             "no5" -> {
-                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+                url = "https://www.medcom.id/ekonomi/bisnis/5b2rrPeb-ini-cara-pupuk-indonesia-dukung-digitalisasi-sektor-pertanian"
             }
             "no6" -> {
-                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+                url = "https://www.medcom.id/ekonomi/makro/Obz00o0K-ini-komoditas-ekspor-indonesia-dari-sektor-pertanian-cekidot"
             }
             "no7" -> {
-                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+                url = "https://www.sindonews.com/topic/969/pertanian"
             }
             "no8" -> {
-                url = "https://akcdn.detik.net.id/community/media/visual/2022/05/08/jamur-tiram-untuk-bakwan_169.jpeg?w=700&q=90"
+                url = "https://ekbis.sindonews.com/read/1115043/34/amerika-siapkan-rp123-miliar-untuk-latih-6500-petani-kakao-dan-kopi-kecil-di-indonesia-1685632017"
             }
         }
         goToBerita(url)
