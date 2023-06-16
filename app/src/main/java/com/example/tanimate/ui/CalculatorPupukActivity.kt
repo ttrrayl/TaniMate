@@ -34,12 +34,10 @@ class CalculatorPupukActivity : AppCompatActivity() {
         buttonPredict = findViewById(R.id.bt_calcPupuk)
         textViewOutput = findViewById(R.id.tvOutput_pupuk)
 
-        // Mengisi spinner dengan opsi jenis tanaman
         val jenisTanamanAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, jenisTanamanOptions)
         jenisTanamanAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         jenisTanamanSpinner.adapter = jenisTanamanAdapter
 
-        // Mengisi spinner dengan opsi jenis tanah
         val jenisTanahAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, jenisTanahOptions)
         jenisTanahAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         jenisTanahSpinner.adapter = jenisTanahAdapter
@@ -51,12 +49,10 @@ class CalculatorPupukActivity : AppCompatActivity() {
 
             val output = runInference(jenisTanaman, jenisTanah, lahan)
 
-            // Tampilkan output di TextView atau elemen tampilan lainnya
             textViewOutput.text = "Besar Pupuk SP36 Yang Anda Butuhkan Adalah (Kilogram) : " + output.toString()
 
         }
 
-        // Inisialisasi Interpreter dan muat model dari file .tflite
         interpreter = Interpreter(loadModelFile(this))
     }
 
@@ -71,33 +67,26 @@ class CalculatorPupukActivity : AppCompatActivity() {
 
 
     private fun runInference(jenisTanaman: String, jenisTanah: String, lahan: Float): Float {
-        // Ubah jenisTanaman, jenisTanah, dan lahan menjadi nilai numerik yang sesuai dengan model multivariate linear regression
 
-        // Menggunakan metode mapping manual
         val jenisTanamanValue = jenisTanamanOptions.indexOf(jenisTanaman).toFloat()
         val jenisTanahValue = jenisTanahOptions.indexOf(jenisTanah).toFloat()
 
-        // Buat input tensor
         val inputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 3), DataType.FLOAT32)
         inputFeature0.loadArray(floatArrayOf(jenisTanamanValue, jenisTanahValue, lahan))
 
-        // Buat output tensor
         val outputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 1), DataType.FLOAT32)
 
-        // Run inference pada model TensorFlow Lite
         val inputs = arrayOf(inputFeature0.buffer)
         val outputs = mutableMapOf<Int, Any>()
         outputs[0] = outputFeature0.buffer
         interpreter.runForMultipleInputsOutputs(inputs, outputs)
 
-        // Ambil nilai output
         return outputFeature0.getFloatValue(0)
     }
 
 
     override fun onDestroy() {
         super.onDestroy()
-        // Bebaskan sumber daya setelah selesai menggunakan model
         interpreter.close()
     }
 }
